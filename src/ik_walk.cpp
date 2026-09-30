@@ -47,7 +47,7 @@ void IKwalk::get_parameters()
 {
 
     std::string addr;
-    addr = "/home/robit/colcon_ws/src/tune_walk-master/work/RCKO";
+    addr = "/home/robit/colcon_ws/src/tune_walk/work/RCKO";
     // ******************************************
 
     std::ifstream is(addr.c_str());
