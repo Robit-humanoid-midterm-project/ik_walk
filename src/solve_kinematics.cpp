@@ -28,8 +28,8 @@ void IK_Solve::init_save()
     cout << "g_DXL_ID_Save_position[" << DXL_ID << "] = " << (g_DXL_ID_Save_position[DXL_ID] / 4) << endl;
   }
   // 22번 모터는 사용하지 않음
-  g_DXL_ID_position[22] = 512 * 4 + ang2pos(0);
-  g_DXL_ID_Save_position[22] = 512 * 4 + ang2pos(0);
+  g_DXL_ID_position[22] = 2008 //512 * 4 + ang2pos(0);
+  g_DXL_ID_Save_position[22] = 2008 // 512 * 4 + ang2pos(0);
 }
 
 void IK_Solve::Balance_Control_Body_Upright(double Input_Data, double Robot_Z, double Time, double Rise_Condition, double Input_Data2, double Balance_Value_Msg, double Balance_Value_Msg2,
